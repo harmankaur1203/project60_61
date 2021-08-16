@@ -1,0 +1,103 @@
+html
+{
+scroll-behavior:smooth;
+}
+
+body
+{
+font-face:courier;
+font-weight:bold;
+font-size:20px;
+color:blue;
+text-align: center;
+}
+img
+{
+ height:500px;
+ width:200px;
+ border-style:solid;
+ border-color:blue;
+ border-radius:2px;
+ transition:transform .2s;
+}
+
+img:hover
+{
+ transform:scale(0.9);
+}
+.line
+{
+    height:10px;
+    width:80%;
+    background-color: black;
+    margin:auto;
+}
+#menu
+{
+    list-style: none;
+    position: absolute;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+   }
+#myprojects
+{
+    width:100%;
+    
+}
+#hobby
+{
+    font-family: 'Lobster', cursive;
+}
+.links
+{
+    float:left;
+    padding:10px;
+}
+.links:hover
+{
+    background-color: darkviolet;
+}
+h2
+{
+font-style:italic;
+}
+sections
+{
+    align: center;
+}
+#s1
+{
+   background-image: linear-gradient(#f5abe6 0%,#36052c 100%); 
+    align-content: center;
+}
+#s2
+{
+    background-color: "purple";
+}
+#image1
+{
+    border-radius: 50%;
+    border-width: 10px;
+    border-color : hotpink;
+    height:150px;
+}
+
+.spacing
+{
+ height:200px;
+}
+
+.simple_a
+{
+  text-decoration:none;
+}
+
+a
+{
+ text-shadow:2px 2px pink;
+}
+.simple_a.hover
+{
+ background-color:blue;
+}
